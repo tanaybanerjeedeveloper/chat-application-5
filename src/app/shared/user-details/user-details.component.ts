@@ -13,6 +13,8 @@ export class UserDetailsComponent implements OnInit {
   @Input() messageRead: string;
 
   public firstChar: string;
+  public userColor: any;
+  public userBg: any;
 
   // @Output() userNameAppear: EventEmitter<string>=new EventEmitter<string>();
 

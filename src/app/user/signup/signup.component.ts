@@ -16,6 +16,7 @@ export class SignupComponent implements OnInit {
   public email: any;
   public password: any;
   public apiKey: any;
+  public number: any;
 
   constructor( public appService: AppService, public router: Router,private toastr: ToastrService) { }
 
